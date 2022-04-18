@@ -20,7 +20,6 @@ public class PlaylistCases {
         requestPlaylist.setName("New playlist pojo");
         requestPlaylist.setDescription("New playlist pojo description");
         requestPlaylist.set_public(false);
-
         Playlist responsePlaylist = given(getRequestSpec()).
                 body(requestPlaylist).
         when().
@@ -39,7 +38,6 @@ public class PlaylistCases {
 
     @Test
     public void ShouldBeAbleToGetAPlaylist(){
-
         Playlist responsePlaylist = given(getRequestSpec()).
                 when().
                 get("playlists/5VK3x3PHUpXkWjjyExe0wi").
