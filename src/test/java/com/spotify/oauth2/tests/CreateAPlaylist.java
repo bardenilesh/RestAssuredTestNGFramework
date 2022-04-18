@@ -44,7 +44,6 @@ public class CreateAPlaylist {
                 "    \"public\": false\n" +
                 "    }";
 
-
         given(requestSpecification).
                 body(payload).
         when().
