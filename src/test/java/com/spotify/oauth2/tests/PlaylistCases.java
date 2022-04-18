@@ -110,6 +110,5 @@ public class PlaylistCases {
 
         assertThat(error.getError().getStatus(), equalTo(401));
         assertThat(error.getError().getMessage(), equalTo("Invalid access token"));
-
     }
 }
